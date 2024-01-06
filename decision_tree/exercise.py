@@ -17,8 +17,5 @@ def learn(a,b,c,d):
     res = model.predict([[a,b,c,d]])
     result={
         "survival_probabilty":str(res.tolist()[0]),
-        "sex":"100.369.55",
-        "age":"Mrinmay",
-        "fare": str(d)
     }
     return (result)
