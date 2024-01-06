@@ -1,5 +1,5 @@
 from flask import Flask, jsonify
-from decision_tree.exercise import learn
+from training import learn
 
 app = Flask(__name__)
 
